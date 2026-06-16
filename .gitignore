@@ -24,3 +24,13 @@ Thumbs.db
 # Secrets
 secrets.json
 credentials.json
+
+# PowerPoint files
+*.pptx
+
+# NotebookLM exports
+#*.pdf
+
+# Large generated artifacts
+*.mp4
+*.zip

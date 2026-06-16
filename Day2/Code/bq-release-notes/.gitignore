@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.pytest_cache/
+
+# Local Cache files (Google Feed cache)
+release_notes_cache.json
+
+# Environment / Secret Files
+.env
+.flaskenv
+
+# IDE / Editor Settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
