@@ -1,6 +1,11 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Python cache folders anywhere in repo
+**/__pycache__/
 
 # Virtual Environments
 venv/
@@ -34,3 +39,8 @@ credentials.json
 # Large generated artifacts
 *.mp4
 *.zip
+
+# Local agent artifacts
+Day3/Code/.agents/
+Day3/Code/git_test/
+antigravity-skills/
